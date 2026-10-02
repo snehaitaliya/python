@@ -1,0 +1,751 @@
+Agar tumhari syllabus me **Condition Statement, Loop, String, Array (List), Tuple, List, Set, Dictionary aur Functions** complete ho gaya hai, to exam me theory + output + programming tino type ke questions aane ke bahut chances hain.
+
+Yeh raha **100% important question pattern** jo Python exams me aksar pucha jata hai.
+
+---
+
+# 1. Condition Statement (if, if-else, elif)
+
+### Theory Questions
+
+1. if aur if-else me difference.
+2. Nested if kya hota hai?
+3. elif ka use kya hai?
+4. Logical operators ka use.
+
+### Programs
+
+* Positive/Negative Number
+* Even/Odd Number
+* Largest of 2 numbers
+* Largest of 3 numbers
+* Leap Year
+* Grade System
+* Voting Eligibility
+* Calculator using if-elif
+
+---
+
+# 2. Loop (for, while)
+
+### Theory
+
+* for aur while me difference
+* Infinite loop kya hota hai?
+* break, continue, pass
+
+### Programs
+
+* 1 to 100 print
+* Even numbers
+* Odd numbers
+* Multiplication Table
+* Factorial
+* Prime Number
+* Fibonacci Series
+* Sum of digits
+* Reverse Number
+* Palindrome Number
+* Armstrong Number
+
+### Pattern Questions
+
+```
+*
+**
+***
+****
+*****
+```
+
+```
+*****
+****
+***
+**
+*
+```
+
+```
+1
+12
+123
+1234
+12345
+```
+
+```
+5
+54
+543
+5432
+54321
+```
+
+---
+
+# 3. String
+
+### Theory
+
+* String kya hai?
+* Immutable kya hota hai?
+* Indexing
+* Slicing
+
+### Functions
+
+* len()
+* upper()
+* lower()
+* title()
+* capitalize()
+* swapcase()
+* replace()
+* split()
+* join()
+* find()
+* index()
+* count()
+* startswith()
+* endswith()
+* isalpha()
+* isdigit()
+* isalnum()
+
+### Programs
+
+* Reverse String
+* Palindrome String
+* Count Vowels
+* Count Consonants
+* Count Words
+* Count Digits
+* Remove Spaces
+* Frequency of Characters
+
+---
+
+# 4. List (Array)
+
+### Theory
+
+* List kya hai?
+* Mutable kya hota hai?
+
+### Functions
+
+* append()
+* insert()
+* extend()
+* remove()
+* pop()
+* clear()
+* sort()
+* reverse()
+* index()
+* count()
+* copy()
+
+### Programs
+
+* Largest Element
+* Smallest Element
+* Sum of Elements
+* Average
+* Search Element
+* Delete Element
+* Update Element
+* Reverse List
+* Sorting
+* Duplicate Remove
+* Frequency Count
+* Second Largest
+
+---
+
+# 5. Tuple
+
+### Theory
+
+* Tuple kya hai?
+* Tuple immutable kyu hota hai?
+* List aur Tuple difference.
+
+### Functions
+
+* count()
+* index()
+* len()
+* max()
+* min()
+* sum()
+
+### Programs
+
+* Maximum
+* Minimum
+* Frequency
+* Convert Tuple to List
+* Search Element
+
+---
+
+# 6. Set
+
+### Theory
+
+* Set kya hai?
+* Duplicate kyu remove hota hai?
+
+### Functions
+
+* add()
+* remove()
+* discard()
+* pop()
+* clear()
+* union()
+* intersection()
+* difference()
+* symmetric_difference()
+
+### Programs
+
+* Duplicate Remove
+* Common Elements
+* Union
+* Intersection
+* Difference
+* Odd Numbers Remove
+* Prime Numbers Store
+
+---
+
+# 7. Dictionary
+
+### Theory
+
+* Dictionary kya hai?
+* Key aur Value kya hote hain?
+
+### Functions
+
+* keys()
+* values()
+* items()
+* get()
+* update()
+* pop()
+* popitem()
+* clear()
+
+### Programs
+
+* Student Record
+* Employee Record
+* Marks Store
+* Search using Key
+* Update Value
+* Frequency Count
+* Highest Marks
+
+---
+
+# 8. Functions
+
+### Theory
+
+* Function kya hai?
+* User Defined Function
+* Built-in Function
+* Arguments
+* Return
+
+### Programs
+
+* Addition Function
+* Factorial Function
+* Prime Function
+* Even/Odd Function
+* Largest Function
+* Fibonacci Function
+* Calculator using Functions
+
+---
+
+# 9. Output Based Questions
+
+Exam me output bhi pucha ja sakta hai.
+
+Example
+
+```python
+x=10
+
+if x>5:
+    print("A")
+else:
+    print("B")
+```
+
+Output?
+
+```
+A
+```
+
+---
+
+```python
+for i in range(1,6):
+    print(i)
+```
+
+Output
+
+```
+1
+2
+3
+4
+5
+```
+
+---
+
+```python
+a="Python"
+
+print(a[::-1])
+```
+
+Output
+
+```
+nohtyP
+```
+
+---
+
+```python
+l=[10,20,30]
+
+print(len(l))
+```
+
+Output
+
+```
+3
+```
+
+---
+
+# 10. Error Finding Questions
+
+Teacher code dega aur error batani hogi.
+
+Example
+
+```python
+if x=10:
+    print(x)
+```
+
+Error?
+
+```
+SyntaxError
+```
+
+---
+
+```python
+print(a)
+```
+
+Error?
+
+```
+NameError
+```
+
+---
+
+```python
+10/0
+```
+
+Error?
+
+```
+ZeroDivisionError
+```
+
+---
+
+# 11. Dry Run Questions
+
+Jaise
+
+```python
+sum=0
+
+for i in range(1,6):
+    sum=sum+i
+
+print(sum)
+```
+
+Output
+
+```
+15
+```
+
+---
+
+# 12. Function Questions
+
+```python
+def add(a,b):
+    return a+b
+
+print(add(10,20))
+```
+
+
+# 13. Long Programming Questions (5–10 Marks)
+
+Ye bahut important hain:
+
+1. Student Management System
+2. Bank Management System
+3. Employee Management
+4. Library Management
+5. Login System
+6. ATM Program
+7. Marksheet Program
+8. Shopping Bill
+9. Hotel Billing
+10. Railway Reservation (Basic)
+
+---
+
+# ⭐ Most Important Programs (Exam ke liye)
+
+* ✅ Prime Number
+* ✅ Fibonacci Series
+* ✅ Factorial
+* ✅ Armstrong Number
+* ✅ Palindrome (String & Number)
+* ✅ Reverse Number
+* ✅ Reverse String
+* ✅ Frequency Count
+* ✅ Duplicate Remove
+* ✅ Largest & Smallest
+* ✅ Sorting
+* ✅ Student Marksheet
+* ✅ Dictionary Record
+* ✅ Calculator
+* ✅ Pattern Printing
+* ✅ File Handling (agar syllabus me ho)
+
+## Meri recommendation:
+
+Agar tum in topics ko achhe se prepare kar loge, to Python ki exam me aane wale lagbhag **80–90% practical aur theory questions** cover ho jayenge.
+
+Agar chaho, main tumhare liye **50 most important Python exam questions with answers** ya **100 practice questions (2 marks, 5 marks, aur programs)** bhi bana sakta hoon.
+
+
+
+
+Agar tumhari syllabus me sirf ye topics hain:
+
+✅ Condition Statement
+✅ Loop
+✅ String
+✅ Array/List
+✅ Tuple
+✅ Set
+✅ Dictionary
+✅ UDF (User Defined Function)
+✅ All Built-in Functions
+
+To exam me 4 types ke questions aane ke chances sabse zyada hain:
+
+Theory Questions
+Output Based Questions
+Error Finding Questions
+Programming Questions
+----------------------------------------------
+1. Condition Statement (if, if-else, elif)
+*Theory
+
+if statement kya hai?
+if aur if-else me difference.
+Nested if kya hota hai?
+elif ka use.
+Logical Operators.
+
+*Programs
+
+Positive/Negative Number
+Even/Odd Number
+Largest of 2 numbers
+Largest of 3 numbers
+Smallest of 3 numbers
+Leap Year
+Grade System
+Voting Eligibility
+Electricity Bill
+Calculator using if-elif
+----------------------------------------------------
+2. Loop
+*Theory
+for loop
+while loop
+Difference between for and while
+break
+continue
+pass
+
+*Programs
+Print 1 to 100
+Print Even Numbers
+Print Odd Numbers
+Sum of Numbers
+Multiplication Table
+Factorial
+Prime Number
+Fibonacci Series
+Armstrong Number
+Palindrome Number
+Reverse Number
+Sum of Digits
+-------------------------------------------
+Pattern Programs
+*
+**
+***
+****
+*****
+
+*****
+****
+***
+**
+*
+
+1
+12
+123
+1234
+12345
+
+5
+54
+543
+5432
+54321
+-------------------------------------------------
+3. String
+*Theory
+
+String kya hai?
+Immutable kya hota hai?
+Indexing
+Slicing
+
+*Functions
+
+len()
+upper()
+lower()
+title()
+capitalize()
+swapcase()
+replace()
+split()
+join()
+find()
+index()
+count()
+startswith()
+endswith()
+isalpha()
+isdigit()
+isalnum()
+
+*Programs
+
+Reverse String
+Palindrome String
+Count Vowels
+Count Consonants
+Count Digits
+Count Spaces
+Count Words
+Frequency of Characters
+---------------------------------------------
+4. List (Array)
+
+*Theory
+
+List kya hai?
+Mutable kya hota hai?
+
+*Functions
+
+append()
+insert()
+extend()
+remove()
+pop()
+clear()
+sort()
+reverse()
+copy()
+count()
+index()
+
+*Programs
+
+Largest Element
+Smallest Element
+Sum of List
+Average
+Search Element
+Update Element
+Delete Element
+Reverse List
+Sorting
+Duplicate Remove
+Frequency Count
+Second Largest Number
+--------------------------------------------
+5. Tuple
+
+*Theory
+
+Tuple kya hai?
+Difference between List and Tuple
+
+*Functions
+
+count()
+index()
+len()
+max()
+min()
+sum()
+
+*Programs
+
+Largest Number
+Smallest Number
+Frequency Count
+Search Element
+Convert Tuple into List
+---------------------------------------------------------
+6. Set
+
+*Theory
+
+Set kya hai?
+Duplicate remove kyu hota hai?
+
+*Functions
+
+add()
+remove()
+discard()
+pop()
+clear()
+union()
+intersection()
+difference()
+symmetric_difference()
+
+*Programs
+
+Remove Duplicate
+Common Elements
+Union
+Intersection
+Difference
+Remove Odd Numbers
+Store Prime Numbers
+-----------------------------------------------------------
+7. Dictionary
+
+*Theory
+
+Dictionary kya hai?
+Key aur Value
+
+*Functions
+
+keys()
+values()
+items()
+get()
+update()
+pop()
+popitem()
+clear()
+
+*Programs
+
+Student Record
+Employee Record
+Search using Key
+Update Value
+Delete Key
+Highest Marks
+Frequency Count
+-------------------------------------------------
+8. UDF (User Defined Function)
+
+*Theory
+
+Function kya hai?
+UDF kya hai?
+Built-in Function aur UDF me difference
+Arguments
+Return Statement
+
+*Programs
+
+Addition Function
+Subtraction Function
+Largest Number Function
+Even/Odd Function
+Prime Function
+Factorial Function
+Fibonacci Function
+Calculator using Function
+Student Result using Function
+-----------------------------------------------------------
+9. Built-in Functions
+
+Teacher in functions ka output puch sakte hain:
+
+len()
+max()
+min()
+sum()
+abs()
+round()
+type()
+int()
+float()
+str()
+list()
+tuple()
+set()
+dict()
+sorted()
+reversed()
+range()

@@ -1,0 +1,70 @@
+name
+email
+contact
+password
+gender
+hobby
+contry
+state
+city
+address
+dob
+
+->perform query
+1. SELECT * FROM student_data;
+-dispaly all data that we inserted
+
+2. SELECT id, name FROM student_data;
+-diplay id and name 
+
+3. SELECT id,name FROM student_data ORDER BY dob ASC;
+-display name as a ascending value from dob
+
+4. SELECT id,name FROM student_data ORDER BY dob DESC;
+-display name as a descending value from dob
+
+5. SELECT name,country AS country_name FROM student_data;
+-country name display as a coulmn contry_name
+
+6. SELECT id,name FROM student_data WHERE id > 34;
+-display id after id 34
+
+7. SELECT id,name FROM student_data WHERE name != 'Rohan' AND name != 'Harsh';
+-display id and name but rohan and harsh removed from the name while running query
+
+8. SELECT name FROM student_data WHERE name LIKE 'R%' OR name LIKE '%a';
+-display name that start with "R" or end with "a"
+
+9. SELECT name FROM student_data WHERE name LIKE '%eha%';
+-display name like the same name
+
+10. SELECT id,name FROM student_data WHERE id BETWEEN 5 AND 24;
+-display id between we given id no.
+
+11. SELECT id,name FROM student_data WHERE id IN (1, 4, 7, 8);
+-display id that we given
+
+12. SELECT id,name FROM student_data WHERE dob IS NOT NULL;
+-It shows id and name that dosent have null 
+
+13. SELECT COUNT(*) FROM student_data;
+-display count number of data
+
+14. SELECT COUNT(email) FROM student_data;
+-display count number of email
+
+15. SELECT MIN(dob), MAX(dob) FROM student_data;
+-it's shows us smallest dob and largest dob
+
+16. SELECT COUNT(DISTINCT country) FROM student_data;
+-count state but display only one time of state name
+ex.                  output:
+1.gujrat 		4
+2.maharashtra
+3.karnatak		 (bcz gujrat and karnatak repeated so they count only one time)
+4.aasam
+5.gujrat
+6.karnatak 
+
+17. 
+

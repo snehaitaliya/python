@@ -1,0 +1,33 @@
+s="hello good morning"
+s1='''hello world  
+      welcome to python
+  programming'''
+s2="345"
+# print(s1)
+# print(s.lower())
+# print(s.upper())
+# print(s.split())
+# print(s.replace("m","f"))
+# print(s.title())
+# print(s.capitalize())
+# print(s.count("o"))
+# print(s.find("g"))
+# print(s[0:5])
+# print(s[6:])
+# print(s[:7])
+# print(s[6:10])
+# print(s[:-8])
+# print(s[::-1])
+# print(s.index("h"))
+# print(s.endswith("g"))
+# print(s.startswith("h"))
+# print(s2.isalnum())
+# print(s2.isdigit())
+# print(s.isalpha())
+# print(s.count("n",9))
+# print(s.count("o",0,9))
+# print(s2.isnumeric())
+# print(s.isupper())
+# print(s.islower())
+# print(len(s))
+# print(s.find("good"))

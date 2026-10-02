@@ -1,0 +1,4 @@
+Roll	Name	S1	S2	S3	S4	S5	Min	Max	Total	Per	  Grade	Result
+5		sneha	45	70	87	67	89	45	89	358		71.6	C	Pass
+4		swara	67	89	56	75	95	56	95	382		76.4	C	Pass
+10		Dharmi	67	90	87	70	96	67	96	410		82.0	B	Pass

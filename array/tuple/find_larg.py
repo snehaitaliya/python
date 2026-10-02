@@ -1,0 +1,5 @@
+t=(45,89,66,34,76,10)
+m=max(t)
+mi=min(t)
+print("max : ",m)
+print("min : ",mi)
